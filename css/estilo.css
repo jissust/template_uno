@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html, body {
+    height:100%;
+}
+
+#bloque_1{
+    background: url("../images/banner.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bloque_2{
+    background: url("../images/banner2.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bloque_3{
+    background: url("../images/banner3.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bloque_4{
+    background: url("../images/banner4.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bloque_5{
+    background: url("../images/banner5.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
