@@ -5,6 +5,13 @@
 html, body {
     height:100%;
 }
+section{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
 
 #bloque_1{
     background: url("../images/banner.jpg") no-repeat center center fixed;
@@ -41,4 +48,16 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+video{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.sombra{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
 }
