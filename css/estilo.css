@@ -122,18 +122,13 @@ section{
 }
 .box_boton{
 
->>>>>>> 5aae30ac0d951cc44f700ffd4d2687cd30578282
-=======
->>>>>>> parent of 5aae30a... Menu lateral
 }
 
     .contenedor_box{
-        position: absolute;
         text-align: center;
     }
     .box{
         position: relative;
-        width: 60%;
         margin: 0 auto;
         background-color: rgba(0, 0, 0, 0.5);
         color: #ffffff;
@@ -153,6 +148,8 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 #bloque_3{
     background: url("../images/banner3.jpg") no-repeat center center fixed;
@@ -185,4 +182,5 @@ video{
     height: 100%;
     background: black;
     opacity: 0.5;
+    position: absolute;
 }
