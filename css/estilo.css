@@ -157,7 +157,40 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+    #bloque_3 .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagen_galeria{
+        width: 25%;
+        overflow: hidden;
+    }
+
+
+/* proferional */
+.imagen_galeria img{
+    position: relative;
+    -webkit-transition: transform 0.5s ease; /* Chrome y Safari */
+    -moz-transition:transform 0.5s ease; /* Mozilla */
+    -o-transition: transform 0.5s ease; /* Ópera */
+    -ms-transition: transform 0.5s ease; /* Explorer */
+    transition: transform 0.5s ease;
+    transform: scale(1);
+}
+
+.imagen_galeria:hover img{
+    position: relative;
+    -webkit-transition: transform 0.5s ease-in-out; /* Chrome y Safari */
+    -moz-transition:transform 0.5s ease-in-out; /* Mozilla */
+    -o-transition: transform 0.5s ease-in-out; /* Ópera */
+    -ms-transition: transform 0.5s ease-in-out; /* Explorer */
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 #bloque_4{
     background: url("../images/banner4.jpg") no-repeat center center fixed;
     height: 100%;
